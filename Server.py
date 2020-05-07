@@ -4,7 +4,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #socket.AF_INET for IPv4
 #socket.SOCK_STREAM for TCP Connection
 
-host = ''
+host = '127.0.0.1'
 # host = 'localhost'
 # host = socket.gethostname()
 # we can use 'localhost' or socket.gethostname()
